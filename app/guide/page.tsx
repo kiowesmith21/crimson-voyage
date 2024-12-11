@@ -10,8 +10,7 @@ const Guide = () => {
     const [planetImageUrl, setplanetImageUrl] = useState({});
 
     const getPlanetImage = async () => {
-        const response = await fetch(`https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=rus2ehYLcgMScRF505bxuOPCjxe7aRyyaiD9VWfl`);
-        console.log(process.env.NASA_API_KEY)
+        const response = await fetch(`https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=${process.env.NASA_API_KEY}`);
         const jsonData = await response.json();
         console.log(jsonData);
         setplanetImageUrl(jsonData);
