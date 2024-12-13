@@ -4,19 +4,21 @@ import Navbar from "../components/navbar";
 import { useUserContext } from "../config/userContext";
 import Link from "next/link";
 
-const SpaceCraft = () => {
+const Confirmation = () => {
 
   const {plan} = useUserContext();
 
   return(
     <>
       <div className="plans h-screen bg-[url('https://4kwallpapers.com/images/wallpapers/stars-galaxy-2560x1440-10307.jpg')]">
+      <Navbar />
        
         <div className="flex flex-col justify-between text-center max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 font-mono h-full">
-      
-          
 
-          {/* Conditionally render the correct spacecraft based on chosen plan from context */}
+          {/* Conditionally render the correct spacecraft/hotel based on chosen plan from context */}
+          {/* Conditionally render the correct payment type based on chosen payment type from context */}
+
+          {/* TODO MAKE "CANCEL TRANSACTION BUTTON" that resets the plan and payment info and links back to "plans" page */}
 
           { plan == "Bronze" &&
           <>
@@ -60,4 +62,4 @@ const SpaceCraft = () => {
   );
 }
 
-export default SpaceCraft;
+export default Confirmation;

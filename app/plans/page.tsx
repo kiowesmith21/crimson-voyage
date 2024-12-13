@@ -31,6 +31,7 @@ const Plans = () => {
             <p className="mb-3 font-normal text-white ">Here are the biggest </p>
             <p className="mb-3 font-normal text-white ">Here are the biggest </p>
             <p className="mb-3 font-normal text-white ">Here are the biggest </p>
+            <h1 className="font-bold text-white text-2xl">Price: $10,000 USD</h1>
             <div className="flex flex-col justify-center p-5">
               <button onClick={() => choosePlan("Bronze")} className="px-3 py-2 text-sm font-bold text-center text-white bg-amber-700 rounded-lg hover:bg-amber-950 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                   Choose This Plan
@@ -46,6 +47,7 @@ const Plans = () => {
             <p className="mb-3 font-normal text-white ">Here are the biggest </p>
             <p className="mb-3 font-normal text-white ">Here are the biggest </p>
             <p className="mb-3 font-normal text-white ">Here are the biggest </p>
+            <h1 className="font-bold text-white text-2xl">Price: $30,000 USD</h1>
             <div className="flex flex-col justify-center p-5">
               <button onClick={() => choosePlan("Silver")} className="px-3 py-2 text-sm font-bold text-center text-white bg-slate-400 rounded-lg hover:bg-slate-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                   Choose This Plan
@@ -61,6 +63,7 @@ const Plans = () => {
             <p className="mb-3 font-normal text-white ">Here are the biggest </p>
             <p className="mb-3 font-normal text-white ">Here are the biggest </p>
             <p className="mb-3 font-normal text-white ">Here are the biggest </p>
+            <h1 className="font-bold text-white text-2xl">Price: $50,000 USD</h1>
             <div className="flex flex-col justify-center p-5">
               <button onClick={() => choosePlan("Gold")} className="px-3 py-2 text-sm font-bold text-center text-white bg-amber-400 rounded-lg hover:bg-amber-500 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                   Choose This Plan
